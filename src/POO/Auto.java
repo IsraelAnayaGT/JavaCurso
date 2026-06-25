@@ -1,10 +1,15 @@
 package POO;
+import java.util.*;
+
 import POO.Alumnos;
 
  class Auto {
     // Sobre carga de metodos con constructores
     String marca , modelo;
     int ano;
+    
+    //Scanner entrada = new  Scanner(System.in)
+    
 
     //Metodo 1 sin parametros
     public Auto(){
@@ -33,6 +38,9 @@ import POO.Alumnos;
         auto1.MostrarInfo();
         auto2.MostrarInfo();
 
-        Alumnos
+        Alumnos alumno1 = new Alumnos();
+        alumno1.nombre = "Maria";
+        System.out.print("Nombre: " + alumno1.nombre);
+
     }
 }
