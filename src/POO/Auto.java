@@ -1,4 +1,5 @@
 package POO;
+import POO.Alumnos;
 
  class Auto {
     // Sobre carga de metodos con constructores
@@ -32,5 +33,6 @@ package POO;
         auto1.MostrarInfo();
         auto2.MostrarInfo();
 
+        Alumnos
     }
 }
