@@ -6,6 +6,6 @@ public class Gato {
         Animal gato1 = new Animal();
         gato1.maulla();
         
-        System.out.println("El nombre del gato es:");
+        System.out.println("El nombre del gato es:"  + gato1.nombre);
     }
 }
